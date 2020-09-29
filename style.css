@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 80px;
+    
+}
+
+.top {
+    width: 100vw;
+    height: 20px;
+    background-color: rgb(91, 91, 255);
+    color: #fdfdfd;
+    font-size: 0.8rem;
+    padding-top : 2px;
+    text-align: center;
+}
+
+.content1{
+  display: flex;
+	justify-content:space-around;
+	padding:25px 0 ;
+	margin: 10px auto;
+  
+}
+.content1 .text {
+  
+  width: auto;
+  text-align: center;
+  font-style: normal;
+  color: #000000;
+  flex: 50%;
+  padding-right: 20px;
+  padding-top: 4%;
+}
+.content1 .text span {
+  color: rgb(0, 0, 204);
+}
+.content1  img {
+  
+  width : 700px;
+  top: 40px;
+  color: #333333;
+}
+.content1 button {
+  
+  margin-top: 20px;
+  padding: 10px 20px ;
+  background-color: #326BFF;;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 7px 5px 0px  #a6bbff ;
+
+}
+.content1 button a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  
+}
+.content1 button:hover {
+
+  background-color: #6b95ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.content1 button a:hover {
+  color: #2c2c2c;
+  transition: 0.3s;
+}
+
+
+.content2 {
+  display: flex;
+	justify-content:space-around;
+	text-align: center;
+}
+.content2 h2 {
+  margin-top: 20px;
+  margin-bottom : 20px;
+
+}
+.content2 p{
+  width: 500px;
+
+  
+}
+.content2 p span{
+  width: 500px;
+  color: #003fdd ;
+  font-weight: 600;
+  
+}
+.gif {
+  position: relative;
+  top: 0%;
+ 
+}
+
+.content2 .text button {
+ 
+  padding: 10px 20px ;
+  background-color: #326BFF;;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 7px 5px 0px  #a6bbff ;
+  margin: 20px;
+}
+.content2 .text button a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.content2 .text button:hover {
+
+  background-color: #6b95ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.content2 .text button a:hover {
+  color: #2c2c2c;
+  transition: 0.3s;
+}
